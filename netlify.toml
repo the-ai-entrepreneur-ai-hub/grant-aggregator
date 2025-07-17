@@ -11,23 +11,22 @@
   status = 200
 
 [context.production.environment]
-  [context.production.environment]
-    VITE_AIRTABLE_API_KEY = ""
-    VITE_AIRTABLE_BASE_ID = ""
-    VITE_AIRTABLE_TABLE_NAME = ""
-    VITE_API_URL = ""
-    VITE_APP_ENV = "production"
-  
-  [context.deploy-preview.environment]
-    VITE_AIRTABLE_API_KEY = ""
-    VITE_AIRTABLE_BASE_ID = ""
-    VITE_AIRTABLE_TABLE_NAME = ""
-    VITE_API_URL = ""
-    VITE_APP_ENV = "staging"
-  
-  [context.branch-deploy.environment]
-    VITE_AIRTABLE_API_KEY = ""
-    VITE_AIRTABLE_BASE_ID = ""
-    VITE_AIRTABLE_TABLE_NAME = ""
-    VITE_API_URL = ""
-    VITE_APP_ENV = "development"
+  VITE_AIRTABLE_API_KEY = ""
+  VITE_AIRTABLE_BASE_ID = ""
+  VITE_AIRTABLE_TABLE_NAME = ""
+  VITE_API_URL = ""
+  VITE_APP_ENV = "production"
+
+[context.deploy-preview.environment]
+  VITE_AIRTABLE_API_KEY = ""
+  VITE_AIRTABLE_BASE_ID = ""
+  VITE_AIRTABLE_TABLE_NAME = ""
+  VITE_API_URL = ""
+  VITE_APP_ENV = "staging"
+
+[context.branch-deploy.environment]
+  VITE_AIRTABLE_API_KEY = ""
+  VITE_AIRTABLE_BASE_ID = ""
+  VITE_AIRTABLE_TABLE_NAME = ""
+  VITE_API_URL = ""
+  VITE_APP_ENV = "development"

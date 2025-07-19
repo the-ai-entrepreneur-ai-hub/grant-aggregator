@@ -17,7 +17,9 @@
       "Bash(cmd.exe /c \"git status\")",
       "Bash(cmd.exe /c \"git add . && git commit -m \"\"Final security cleanup\"\" && git push origin main\")",
       "Bash(cmd.exe /c \"git add . && git commit -m \"\"Final security cleanup and Claude config\"\" && git push origin main\")",
-      "Bash(cmd.exe /c \"git add .\")"
+      "Bash(cmd.exe /c \"git add .\")",
+      "Bash(cmd.exe /c \"git commit -m \"\"Add Claude configuration files\"\"\")",
+      "Bash(cmd.exe /c \"git commit -m Add_Claude_config\")"
     ],
     "deny": []
   }

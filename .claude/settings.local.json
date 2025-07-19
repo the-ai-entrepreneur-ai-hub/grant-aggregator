@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npm run build:*)",
+      "Bash(npm run type-check:*)",
+      "Bash(npm run lint)",
+      "Bash(git add:*)",
+      "Bash(git push:*)",
+      "Bash(git config:*)",
+      "Bash(cmd.exe /c \"git push origin main\")",
+      "Bash(git rm:*)",
+      "Bash(ls:*)",
+      "Bash(rm:*)",
+      "Bash(git log:*)",
+      "Bash(git commit:*)",
+      "Bash(cmd.exe /c \"git status\")",
+      "Bash(cmd.exe /c \"git add . && git commit -m \"\"Final security cleanup\"\" && git push origin main\")",
+      "Bash(cmd.exe /c \"git add . && git commit -m \"\"Final security cleanup and Claude config\"\" && git push origin main\")",
+      "Bash(cmd.exe /c \"git add .\")"
+    ],
+    "deny": []
+  }
+}

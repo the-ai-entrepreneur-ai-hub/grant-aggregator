@@ -1,7 +1,14 @@
 [build]
   command = "npm run build"
   publish = "dist"
-  environment = { SECRETS_SCAN_OMIT_KEYS = "AIRTABLE_WEBHOOK_URL,NODE_ENV,PORT,AIRTABLE_API_KEY,AIRTABLE_BASE_ID" }
+  environment = { 
+    VITE_AIRTABLE_API_KEY = "patrTARcp2imegWXX.513b24ed796e50d036a3c198a667ba839fef17bd884c211299efd8ef4b8ce2b5"
+    VITE_AIRTABLE_BASE_ID = "appR8MwS1pQs7Bnga"
+    VITE_AIRTABLE_TABLE_NAME = "Funding Opportunities"
+    VITE_API_URL = "https://api.airtable.com/v0"
+    VITE_APP_ENV = "production"
+    SECRETS_SCAN_OMIT_KEYS = "VITE_AIRTABLE_API_KEY,AIRTABLE_API_KEY,AIRTABLE_BASE_ID"
+  }
 
 [[redirects]]
   from = "/*"
